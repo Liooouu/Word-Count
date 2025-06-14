@@ -38,6 +38,14 @@ button {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+   
+    
+}
+
+button:hover {
+    filter: brightness(1.2);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
