@@ -1,7 +1,8 @@
 function wordCount() {
-    const text = document.getElementById("text-area").value;
-    const wordCount = text.split(" ").length;
-    document.getElementById("nums").innerHTML = "Total Number of Words: " + wordCount;
+     const text = document.getElementById("text-area").value;
+    const wordCount = text.trim().split(/\s+/);
+    document.getElementById("nums").innerHTML = "Total Number of Words: " + wordCount.length;
+    
 }
 
 function resetFields() {
