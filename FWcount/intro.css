@@ -1,43 +1,45 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: system-ui, sans-serif;
-    background: #050901cb;
+    background-image: url(../Pictures/IBG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 115vh;
+    font-family: sans-serif;
+}
+
+.text-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    text-align: center;
 }
 
-.wrapper {
+.intro-box {
     display: flex;
     flex-direction: column;
-    align-items: top;
-}
-
-#text-area {
-    width: 500px;
-    height: 300px;
-    padding: 15px;
-    background: white;
-    color: black;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
 }
 
 button {
-    background: red;
+    background: black;
     border: none;
-    padding: 15px 150px;
-    margin-top: 20px;
+    padding: 15px 50px;
     border-radius: 5px;
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #fff;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -47,12 +49,4 @@ button:hover {
     color: black;
     transform: scale(1.05);
     box-shadow: 0 0 20px rgb(12, 200, 15);
-}
-
-#nums {
-    margin-top: 35px;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-
 }
