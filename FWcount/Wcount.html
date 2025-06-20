@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Counter</title>
-    <link rel="stylesheet" href="Wcount.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Counter</title>
+  <link rel="stylesheet" href="Wcount.css" />
+  <link rel="stylesheet" href="../Nav-bar/index.css" />
 </head>
 <body>
 
-    <audio id="key-sound" src="Audio/Key.wav" preload="auto"></audio>
+  <div id="navbar-placeholder"></div>
 
-    <div class="wrapper">
-        <textarea id="text-area" placeholder="Type you message here..."></textarea>
-        <button onclick="wordCount()">Word Counter</button>
-        <button onclick="resetFields()">Reset</button>
-        <button onclick="window.location.href='intro.html'">Go Back</button>
-        <p id="nums"></p>
-    </div>
+  <audio id="key-sound" src="../Audio/Key.wav" preload="auto"></audio>
 
+  <div class="wrapper">
+    <textarea id="text-area" placeholder="Type your message here..."></textarea>
+    <button onclick="wordCount()">Word Counter</button>
+    <button onclick="resetFields()">Reset</button>
+    <p id="nums"></p>
+  </div>
 
-
-    <script src="Wcount.js"></script>
+  <script src="Wcount.js"></script>
 </body>
 </html>
