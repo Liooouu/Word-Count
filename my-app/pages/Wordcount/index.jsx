@@ -41,8 +41,8 @@ const Wordcount = () => {
       <audio ref={audioRef} src="/Audio/Key.wav" preload="auto" /> {/* leading slash */}
 
       <button
-        className="text-white bg-blue-700 px-4 py-2 rounded"
-        onClick={goBack} // pass function, do NOT call directly
+        className="bg-black text-white uppercase tracking-wider rounded px-5 py-2 transition hover:bg-green-500 hover:text-black hover:scale-105 hover:shadow-[0_0_20px_rgb(12,200,15)]"
+        onClick={goBack} 
       >
         Back
       </button>
@@ -56,18 +56,10 @@ const Wordcount = () => {
       ></textarea>
 
       <div className="flex gap-4">
-        <button
-          onClick={() =>
-            setWordCount(text.trim().split(/\s+/).filter(Boolean).length)
-          }
-          className="bg-black text-white uppercase tracking-wider rounded px-5 py-2 transition hover:bg-green-500 hover:text-black hover:scale-105 hover:shadow-[0_0_20px_rgb(12,200,15)]"
-        >
-          Word Counter
-        </button>
+
         <button
           onClick={resetFields}
-          className="bg-black text-white uppercase tracking-wider rounded px-5 py-2 transition hover:bg-green-500 hover:text-black hover:scale-105 hover:shadow-[0_0_20px_rgb(12,200,15)]"
-        >
+          className="bg-black text-white uppercase tracking-wider rounded px-5 py-2 transition hover:bg-green-500 hover:text-black hover:scale-105 hover:shadow-[0_0_20px_rgb(12,200,15)]">
           Reset
         </button>
       </div>

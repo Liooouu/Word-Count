@@ -53,7 +53,7 @@
             </h3>
             <a
               href="./Wordcount"
-              className="mt-4 bg-stone-950 rounded-bl-3xl p-1.5 text-white text-sm hover:text-stone-300 hover:bg-green-500 transition duration-300 ease-in-out animate-spin hover:font-extrabold hover:animate-none active:bg-green-800 inline-block"
+              className="mt-4 bg-stone-950 p-1.5 text-white text-sm hover:text-stone-300 hover:bg-green-500 hover:font-extrabold hover:animate-none active:bg-green-800 inline-block"
             >
               Get Started
             </a>
@@ -167,7 +167,7 @@
            
             <div className="relative group bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/Pictures/Anrei.jpg"
+                src="/Pictures/Mark.jpg"
                 alt="Mark Vincent Lucido"
                 className="w-full h-64 object-cover"
               />
@@ -175,7 +175,7 @@
                 <h3 className="text-xl font-semibold mb-4">Mark Vincent Lucido</h3>
                 <div className="flex gap-6">
                   <a
-                    href="https://github.com/dreeeiiiii/"
+                    href="https://github.com/marky1922/"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="GitHub"
@@ -187,19 +187,7 @@
                       className="w-8 h-8"
                     />
                   </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Facebook"
-                    className="hover:text-blue-500"
-                  >
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
-                      alt="Facebook"
-                      className="w-8 h-8"
-                    />
-                  </a>
+
                 </div>
               </div>
             </div>
