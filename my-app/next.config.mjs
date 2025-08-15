@@ -4,4 +4,4 @@ const nextConfig = {
   trailingSlash: true,    // maps /Wordcount/ correctly
 };
 
-module.exports = nextConfig;
+export default nextConfig;
