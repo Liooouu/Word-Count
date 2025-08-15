@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export',       // ensures static HTML export
+  trailingSlash: true,    // maps /Wordcount/ correctly
 };
 
-export default nextConfig;
+module.exports = nextConfig;
