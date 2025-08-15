@@ -3,6 +3,8 @@
 import React from "react";
 import { HomeIcon, UserIcon, CodeBracketIcon } from '@heroicons/react/24/solid'; 
 import Footer from "../components/Footer/footer"; // Adjust the path if Footer is in another folder
+import Link from "next/link";
+
 
 export default function HomePage() {
 
@@ -52,12 +54,12 @@ export default function HomePage() {
           <h3 className="text-xs mt-2">
             Welcome to Word Counter, count your essay related activities here and many more.
           </h3>
-          <a
+          <Link
             href="./Wordcount"
             className="mt-4 bg-stone-950 p-1.5 text-white text-sm hover:text-stone-300 hover:bg-green-500 hover:font-extrabold hover:animate-none active:bg-green-800 inline-block"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </section>
 
